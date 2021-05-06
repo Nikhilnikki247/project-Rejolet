@@ -1,1 +1,373 @@
-write your css code here
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-color: #293879;
+}
+
+.logo {
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.logo_heading {
+    font-size: 20px;
+    color: #ffffff;
+    margin-left: 5px;
+    font-family: "playfair display sc";
+}
+
+.horizontal_line {
+    background-color: #ffffff;
+}
+
+.unorderList {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.list_container {
+    background-color: #ffffff;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.wallet_section {
+    font-family: "roboto";
+    padding-top: 2px;
+    color: #ffffff;
+}
+
+.wallet {
+    color: orange;
+}
+
+.wallet_section_1 {
+    font-family: "roboto";
+    padding-top: 2px;
+}
+
+.first_part {
+    width: 200px;
+}
+
+.container_2 {
+    background: #ffffff;
+}
+
+.overview {
+    font-size: 18px;
+    font-family: "roboto";
+    color: #030303;
+    font-weight: bold;
+}
+
+.Savings {
+    font-size: 18px;
+    font-family: "roboto";
+}
+
+.Inverstiments {
+    font-size: 18px;
+    font-family: "roboto";
+}
+
+.top-icon {
+    color: darkblue;
+    font-size: 20px;
+}
+
+.small_container {
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkblue;
+    height: 30px;
+    width: 105px;
+    border-radius: 5px;
+}
+
+.profile_pic {
+    width: 30px;
+    height: 30px;
+}
+
+.name {
+    font-family: "roboto";
+    font-size: 20px;
+}
+
+.dropdown {
+    background-color: transparent;
+    border-width: 0px;
+}
+
+.mobile_approch_part1 {
+    justify-content: space-between;
+}
+
+
+
+.dropdown_bg {
+    background-color: black;
+    width: 300px;
+    overflow: auto;
+}
+
+.scanner_img {
+    height: 100px;
+    width: 100px;
+}
+
+@media(max-width:991px) {
+    .top_container {
+        background-color: darkblue;
+    }
+
+    .icon1 {
+        color: #ffffff;
+    }
+
+    .icon2 {
+        color: #ffffff;
+    }
+
+    .top_section_1 {
+        justify-content: space-between;
+    }
+
+    .card_asset {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .heading_Asset {
+        text-align: center;
+    }
+}
+
+.input_sizes {
+    width: 100px;
+}
+
+.btn_edit {
+    border-width: 0px;
+    height: 38px;
+    width: 100px;
+    border-radius: 3px;
+    background-color: #293879;
+    color: white;
+}
+
+.card_heading {
+    font-family: "roboto";
+    font-size: 15px;
+    background-color: #006FFF1D;
+    color: darkblue;
+    padding: 10px;
+}
+
+.flexible_container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.card1 {
+    border-width: 1px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: lightGrey;
+
+
+}
+
+.recent_transactions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.recent_transactions_heading {
+    font-family: "roboto";
+    font-size: 20px;
+}
+
+.un-list {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.profit {
+    color: #05CF5B;
+}
+
+.heading_Asset {
+    font-family: "roboto";
+    font-size: 18px;
+}
+
+
+
+.Asset_img {
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.covid_heading {
+    font-family: "roboto";
+    font-size: 14px;
+}
+
+.covid_desc {
+    font-family: "roboto";
+    font-size: 12px;
+}
+
+.covid_desciption {
+    font-family: "roboto";
+    font-size: 10px;
+}
+
+.recent_transactions2 {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-color: grey;
+}
+
+@media(min-width:992px) {
+    .main_container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .wallet_Add {
+        margin-left: 50px;
+        padding-left: 70px;
+    }
+
+    .card_asset {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .card1 {
+        width: 250px;
+        margin-left: 10px;
+
+    }
+
+    .flexible_container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .recent_transaction_container {
+        max-width: 500px;
+    }
+
+    .asset_container {
+        border-width: 1px;
+        border-style: solid;
+        background-color: #ffffff;
+        border-color: #70707010;
+        border-radius: 8px;
+        padding: 10px;
+    }
+}
+
+.bg-wallet {
+    background-color: darkblue;
+    height: 100vh;
+}
+
+.icon_edit {
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.icon_edit {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.wallet_img {
+    height: 20px;
+    width: 20px;
+    margin-top: 10px;
+
+}
+
+.size_1 {
+    height: 30px;
+    width: 30px;
+    margin-right: 120px;
+}
+
+.clickContainer {
+    background-color: #1c2964;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.button_activate {
+    background-color: #FFB400;
+    border-width: 0px;
+    height: 48px;
+    font-size: 17px;
+    width: 100%;
+    color: #ffffff;
+    font-family: "open sans";
+    border-radius: 5px;
+}
+
+.Activate_para {
+    color: #ffffff;
+}
+
+.anchorElement {
+    color: #293879;
+    font-size: 15px;
+    font-family: "roboto";
+}
+
+.starting_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icon_1 {
+    height: 20px;
+    width: 20px;
+}
+
+.bg_inverster {
+    background-color: #1c2964;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 3px;
+}
+
+.invester_icon {
+    height: 15px;
+    width: 15px;
+    margin-bottom: 12px;
+}
+
+.wallet_img {
+    width: 25px;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 12px;
+
+}
+
+.scanner_size {
+    height: 20px;
+    width: 20px;
+}
