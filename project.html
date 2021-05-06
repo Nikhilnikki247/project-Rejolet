@@ -1,2 +1,527 @@
-write your html code
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/41db7b945e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionHome">
+        <div class="bg-container">
+            <div class="row">
+                <div class="col-12 col-lg-3 d-none d-lg-block">
+                    <div class="starting_page" id="startingPage">
+                        <div>
+                            <div class="p-3">
+                                <div>
+                                    <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=1?component_id=21ca2a94-4a0a-4e6c-90e3-3a0990eac8ac&api_key=CometServer1&access_token=1618850265_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_388ca3ae0eed219400a7aa360f9d5960cf8b4688" />
+                                </div>
+                                <hr class="horizontal_line" />
+                            </div>
+                            <div class="pl-2">
+                                <ul class="unorderList">
+                                    <li class="list_container">
+                                        <div class="d-flex flex-row">
+                                            <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=1920ee8c-8942-4e97-a705-2a6d94306d3e&api_key=CometServer1&access_token=1618850265_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_388ca3ae0eed219400a7aa360f9d5960cf8b4688" class="wallet_img  ml-3" />
+                                            <p class="wallet_section_1 m-2 ml-2">Wallet</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="d-flex flex-row">
+                                            <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=ba3feea8-8d51-470a-a64d-05d6e572bfb8&api_key=CometServer1&access_token=1618850265_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_388ca3ae0eed219400a7aa360f9d5960cf8b4688" class="wallet_img  ml-3" />
+                                            <p class="wallet_section  m-2 ">Wolfpacks</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="d-flex flex-row">
+                                            <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=a360d084-4cf7-46ea-ac0d-fef9b0269269&api_key=CometServer1&access_token=1618850265_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_388ca3ae0eed219400a7aa360f9d5960cf8b4688" class="wallet_img  ml-3" />
+                                            <p class="wallet_section m-2">Portfolio</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="d-flex flex-row">
+                                            <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=4d87d9e4-7389-46ff-b122-dd5ffba79488&api_key=CometServer1&access_token=1618850265_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_388ca3ae0eed219400a7aa360f9d5960cf8b4688" class="wallet_img  ml-3" />
+                                            <p class="wallet_section m-2">Trancparancy</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="d-flex flex-row">
+                                            <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=e4a59ce2-bde2-496d-9456-4357a1c45c60&api_key=CometServer1&access_token=1618850265_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_388ca3ae0eed219400a7aa360f9d5960cf8b4688" class="wallet_img  ml-3" />
+                                            <p class="wallet_section m-2">All Properties</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="clickContainer p-2 mt-5" id="clickContainer">
+                            <div class="text-right">
+                                <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=a12c7733-2f2c-405c-b779-da1526e1b06e&api_key=CometServer1&access_token=1618850265_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_388ca3ae0eed219400a7aa360f9d5960cf8b4688" class="size_1" />
+                                <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=74925fcd-c5cf-4615-bc9c-e4282003b3ae&api_key=CometServer1&access_token=1618850265_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_388ca3ae0eed219400a7aa360f9d5960cf8b4688" class="size_2" id="crossBtn" />
+                            </div>
+                            <p class="Activate_para">Your account is noy yet Activated to Sell Coins.Please specify your Paypal payment adress to activate your account</p>
+                            <button class="button_activate">Click here</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="container_2 col-12  col-lg-9 ">
+                    <div class="d-flex flex-row top_container p-3">
+                        <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=b12661b9-68fe-428d-ab68-aa8be37d8052&api_key=CometServer1&access_token=1618850265_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_388ca3ae0eed219400a7aa360f9d5960cf8b4688" class="d-lg-none" />
+                        <div class="d-none d-lg-block">
+                            <div class="top_section_1 d-flex flex-row ">
+                                <h1 class="overview mr-3">Overview</h1>
+                                <h1 class="Savings mr-3">Savings</h1>
+                                <h1 class="Inverstiments mr-3">Inverstiments</h1>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row ml-auto">
+                            <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=31ab3544-5f0c-4f8f-b7c2-940f90d7207f&api_key=CometServer1&access_token=1618850265_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_388ca3ae0eed219400a7aa360f9d5960cf8b4688" class="icon_1 m-2 mb-2" />
+                            <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=e9d4884c-4601-4ff3-b7e7-83f5419efd25&api_key=CometServer1&access_token=1618850265_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_388ca3ae0eed219400a7aa360f9d5960cf8b4688" class="icon_1 m-2 mb-2" />
+                            <div class="d-none d-lg-block">
+                                <div class="small_container d-flex flex-row mr-2 ">
+                                    <div class="bg_inverster">
+                                        <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=efa1ff68-acb6-4bc4-a6a7-4e79481fd2c2&api_key=CometServer1&access_token=1618850265_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_388ca3ae0eed219400a7aa360f9d5960cf8b4688" class="invester_icon" />
+                                    </div>
+                                    <p class="para1 ml-2 mr-2">Invester</p>
+                                </div>
+                            </div>
+                            <p class="mr-2 d-none d-lg-block">|</p>
+                            <img src="https://as2.ftcdn.net/jpg/01/06/58/45/500_F_106584535_ZZZVvYSZ0JDfnuizJy6W8iez71CKZ55z.jpg" class="profile_pic mr-2 " onclick='display("sectionProfile")' />
+                            <h1 class="name mt-1 d-none d-lg-block">Robert Downey</h1>
+                            <div class="dropdown btn-group dropleft ml-2 d-none d-lg-block">
+                                <button class="dropdown" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="35,0">
+                                    <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=d6be859f-5e64-4970-9a35-e57065d5f2dd&api_key=CometServer1&access_token=1618850265_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_388ca3ae0eed219400a7aa360f9d5960cf8b4688" />
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+                                    <a class="dropdown-item" href="#">Profile</a>
+                                    <a class="dropdown-item" href="#">Update Account</a>
+                                    <a class="dropdown-item" href="#">Logout</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="d-none d-lg-block" />
+                    <div class="mobile_approch_part1 d-flex d-lg-none flex-row shadow">
+                        <div class="d-flex flex-row">
+                            <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=b2f7b06b-fd63-49f9-a77f-d3fc8c45f8de&api_key=CometServer1&access_token=1618850265_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_388ca3ae0eed219400a7aa360f9d5960cf8b4688" onclick='display("sectionWallet")' class="wallet_img" />
+                            <p class="wallet_section_1 m-2 ml-3">Wallet</p>
+                        </div>
+                        <div class="small_container d-flex flex-row mr-2 mt-2">
+                            <div class="bg_inverster">
+                                <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=efa1ff68-acb6-4bc4-a6a7-4e79481fd2c2&api_key=CometServer1&access_token=1618850265_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_388ca3ae0eed219400a7aa360f9d5960cf8b4688" class="invester_icon" />
+                            </div>
+                            <p class="para1 ml-2 mr-2">Invester</p>
+                        </div>
+                    </div>
+                    <div class="p-3">
+                        <div class="d-lg-none">
+                            <div class="top_section_1 d-flex flex-row ">
+                                <h1 class="overview mr-3">Overview</h1>
+                                <h1 class="Savings mr-3">Savings</h1>
+                                <h1 class="Inverstiments mr-3">Inverstiments</h1>
+                            </div>
+                            <hr />
+                        </div>
+                        <div class="main_container">
+                            <div>
+                                <div class="top_section_1 d-flex flex-row ">
+                                    <div>
+                                        <div class="d-flex flex-row">
+                                            <p>total balance </p>
+                                            <div class="dropdown btn-group dropleft mb-3">
+                                                <button class="dropdown" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="35,0">
+                                                    <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=825c77a6-f0d0-4c68-b376-598c1f12cdbd&api_key=CometServer1&access_token=1618850265_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_388ca3ae0eed219400a7aa360f9d5960cf8b4688" />
+                                                </button>
+                                                <div class="dropdown-menu dropdown_bg" aria-labelledby="dropdownMenuOffset">
+                                                    <a class="dropdown-item" href="#"> Total balance,it includes overall balance like freedom coin,property inverstment or Wolfpacks inverstement</a>
+                                                </div>
+                                            </div>
+                                            <p class="d-none d-lg-block">:$60</p>
+                                        </div>
+                                        <p class="d-lg-none">:$60</p>
+                                    </div>
+                                    <div>
+                                        <div class="d-flex flex-row">
+                                            <p class="wallet_Add">Wallet Address</p>
+                                            <div class="dropdown btn-group dropleft mb-3 d-none d-lg-block">
+                                                <button class="dropdown" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="35,0">
+                                                    <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=53c47ea4-b2c1-44c7-9e5a-2c9ad1ee5288&api_key=CometServer1&access_token=1618850265_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_388ca3ae0eed219400a7aa360f9d5960cf8b4688" class="scanner_size" />
+                                                </button>
+                                                <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+                                                    <a class="dropdown-item" href="#">
+                                                        <img src="https://as1.ftcdn.net/jpg/02/83/12/24/500_F_283122455_WgN6pwKQcozJi1BsrN9CAEnIFZxvI3Ze.jpg" class="scanner_img text-center" />
+                                                        <p class="text-center">Scan QR</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="dropdown btn-group dropleft mb-3 d-lg-none">
+                                            <button class="dropdown" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="35,0">
+                                                <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=53c47ea4-b2c1-44c7-9e5a-2c9ad1ee5288&api_key=CometServer1&access_token=1618850265_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_388ca3ae0eed219400a7aa360f9d5960cf8b4688" class="scanner_size" />
+                                            </button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+                                                <a class="dropdown-item" href="#">
+                                                    <img src="https://as1.ftcdn.net/jpg/02/83/12/24/500_F_283122455_WgN6pwKQcozJi1BsrN9CAEnIFZxvI3Ze.jpg" class="scanner_img text-center" />
+                                                    <p class="text-center">Scan QR</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="flexible_container">
+                                        <div class="card1 order-1 order-lg-1 mb-3">
+                                            <h1 class="card_heading">Checking</h1>
+                                            <div class="p-3">
+                                                <div class="d-flex flex-row">
+                                                    <p class="pr-5">cash</p>
+                                                    <p>: $20</p>
+                                                </div>
+                                                <p>Buy Coins</p>
+                                                <div class="d-flex flex-row">
+                                                    <input type="number" class=" form-control input_sizes" placeholder="1000" />
+                                                    <button class="btn_edit ml-2"> Buy</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card1 order-2 order-lg-3 mb-3">
+                                            <h1 class="card_heading">Savings</h1>
+                                            <div class="p-3">
+                                                <div class="d-flex flex-row">
+                                                    <p class="pr-5">inversted</p>
+                                                    <p>: $20</p>
+                                                </div>
+                                                <div class="d-flex flex-row">
+                                                    <p>Total Payout</p>
+                                                    <div class="dropdown btn-group dropleft mb-3 d-lg-none">
+                                                        <button class="dropdown" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="35,0">
+                                                            <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=825c77a6-f0d0-4c68-b376-598c1f12cdbd&api_key=CometServer1&access_token=1618850265_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_388ca3ae0eed219400a7aa360f9d5960cf8b4688" />
+                                                        </button>
+                                                        <div class="dropdown-menu dropdown_bg" aria-labelledby="dropdownMenuOffset">
+                                                            <a class="dropdown-item" href="#">
+                                                                Projected total payment based on terms and APR
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <p class="pl-1">: $27.00</p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card1 order-3 order-lg-2 mb-3">
+                                            <h1 class="card_heading">Transfer</h1>
+                                            <div class="p-3">
+                                                <div class="d-flex flex-row">
+                                                    <p class="pr-5">Paypal</p>
+                                                    <p>: $20</p>
+                                                </div>
+                                                <p>Sell Coins</p>
+                                                <div class="d-flex flex-row">
+                                                    <input type="number" class=" form-control input_sizes" placeholder="0" />
+                                                    <button class="btn_edit ml-2"> Sell</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card1 order-4 order-lg-4 mb-3">
+                                            <h1 class="card_heading">Inverstments</h1>
+                                            <div class="p-3">
+                                                <div class="d-flex flex-row">
+                                                    <p class="pr-5">Inversted</p>
+                                                    <p>: $20</p>
+                                                </div>
+                                                <div class="d-flex flex-row">
+                                                    <p class="pr-4">Contributed</p>
+                                                    <p>: $20</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" recent_transaction_container d-none d-lg-block">
+                                    <h1 class="recent_transactions_heading">Recent transactions</h1>
+                                    <div class="recent_transactions">
+                                        <p>Date</p>
+                                        <p>Transaction</p>
+                                        <p>Amount</p>
+                                    </div>
+                                    <hr />
+                                    <ul class="un-list">
+                                        <li>
+                                            <div class="recent_transactions">
+                                                <p>09 mar 2020</p>
+                                                <p>20922 Avalon Drive (jon Hea..)<span class="pl-2">-Dividend</span></p>
+                                                <p class="profit">$10.00</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="recent_transactions">
+                                                <p>09 mar 2020</p>
+                                                <p>20922 Avalon Drive (jon Hea..)<span class="pl-2">-Purchase</span></p>
+                                                <p class="loss">$1000.00</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="recent_transactions">
+                                                <p>09 mar 2020</p>
+                                                <p>Free Coin<span class="pl-2">-Deposit</span></p>
+                                                <p class="profit">$10.00</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="recent_transactions">
+                                                <p>09 mar 2020</p>
+                                                <p>Free Coin<span class="pl-2">-Withdrawal</span></p>
+                                                <p class="loss">$500.00</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="recent_transactions">
+                                                <p>09 mar 2020</p>
+                                                <p>Profit Wolfpack(Alpha Name)<span class="pl-2">-Purchase</span></p>
+                                                <p class="loss">$400.00</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="recent_transactions">
+                                                <p>09 mar 2020</p>
+                                                <p>Non Profit Wolfpack(Alpha N..)<span class="pl-2">-Contribute</span></p>
+                                                <p class="loss">$400.00</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="text-right">
+                                        <a class="anchorElement">View More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="asset_container">
+                                <h1 class="heading_Asset">Available Asset</h1>
+                                <hr class="d-none d-lg-block" />
+                                <div class="card_asset ">
+                                    <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=f5c250fc-75b0-4120-b4e1-c4341750548d&api_key=CometServer1&access_token=1618850265_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_388ca3ae0eed219400a7aa360f9d5960cf8b4688" />
+                                    <div class="ml-2">
+                                        <h1 class="covid_heading">Potential Covid-19 cure:Clinitical Trail</h1>
+                                        <p class="covid_desc">Description:</p>
+                                        <p class="covid_desciption">A well know,safe,generic medication that has been used for decades has been shown to...</p>
+                                    </div>
+                                </div>
+                                <hr />
+                                <div class="card_asset">
+                                    <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=7fe41a50-3949-4f3f-b24d-01896b3b7e85&api_key=CometServer1&access_token=1618850265_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_388ca3ae0eed219400a7aa360f9d5960cf8b4688" />
+                                    <div class="ml-2">
+                                        <h1 class="covid_heading">Mission <span><img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=6889a002-9f29-459f-8e91-3e6a80b6ffeb&api_key=CometServer1&access_token=1618752796_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_c1564a10620be2e9f91e0058bd31b7cd45d45104" /></span></h1>
+                                        <p class="covid_desc">Description:</p>
+                                        <p class="covid_desciption">Ownership in Minuteman is decentralized and distributed democratically across its base of...</p>
+                                    </div>
+                                </div>
+                                <hr />
+                                <div class="card_asset ">
+                                    <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=efa1a72d-0900-4213-b01f-162a452ca449&api_key=CometServer1&access_token=1618850265_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_388ca3ae0eed219400a7aa360f9d5960cf8b4688" />
+                                    <div class="ml-2">
+                                        <h1 class="covid_heading">20922 Avalon Drive</h1>
+                                        <p class="covid_desc">Address:</p>
+                                        <p class="covid_desciption">8801 Holly Road<br />Tullahoma, TN 37388</p>
+                                    </div>
+                                </div>
+                                <hr />
+                                <div class="card_asset ">
+                                    <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=d2779450-ee48-42af-b273-4e08866d9738&api_key=CometServer1&access_token=1618850265_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_388ca3ae0eed219400a7aa360f9d5960cf8b4688" />
+                                    <div class="ml-2">
+                                        <h1 class="covid_heading">17456 Eastgate Drive</h1>
+                                        <p class="covid_desc">Address:</p>
+                                        <p class="covid_desciption">23 North Briarwood Avenue<br />Williamsburg, VA 23185</p>
+                                    </div>
+                                </div>
+                                <hr />
+                                <div class="text-right d-none d-lg-block">
+                                    <a class="anchorElement ">View More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="d-lg-none mt-2">
+                                <h1 class="recent_transactions_heading">Recent transactions</h1>
+                                <div class="recent_transactions">
+                                    <p>Date</p>
+                                    <p>Transaction</p>
+                                    <p>Amount</p>
+                                </div>
+                                <hr />
+                                <ul class="un-list">
+                                    <li>
+                                        <div class="recent_transactions2 shadow">
+                                            <div class="d-flex flex-row">
+                                                <p class="pr-5">Date</p>
+                                                <p>: 09 mar 2020</p>
+                                            </div>
+                                            <div class="d-flex flex-row">
+                                                <p>Transaction</p>
+                                                <p>: 20922 Avalon Drive (jon Hea..)<br />-Dividend</p>
+                                            </div>
+                                            <div class="d-flex flex-row">
+                                                <p class="pr-3">Amount</p>
+                                                <p class="profit">: $10.00</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="recent_transactions2 shadow">
+                                            <div class="d-flex flex-row">
+                                                <p class="pr-5">Date</p>
+                                                <p>: 09 mar 2020</p>
+                                            </div>
+                                            <div class="d-flex flex-row">
+                                                <p>Transaction</p>
+                                                <p>: 20922 Avalon Drive (jon Hea..)<br />-Purchase</p>
+                                            </div>
+                                            <div class="d-flex flex-row">
+                                                <p class="pr-3">Amount</p>
+                                                <p class="loss">: $1000.00</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="recent_transactions2 shadow">
+                                            <div class="d-flex flex-row">
+                                                <p class="pr-5">Date</p>
+                                                <p>: 09 mar 2020</p>
+                                            </div>
+                                            <div class="d-flex flex-row">
+                                                <p>Transaction</p>
+                                                <p>: Freedom Coin<br />-Deposit</p>
+                                            </div>
+                                            <div class="d-flex flex-row">
+                                                <p class="pr-3">Amount</p>
+                                                <p class="profit">: $10.00</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="recent_transactions2 shadow">
+                                            <div class="d-flex flex-row">
+                                                <p class="pr-5">Date</p>
+                                                <p>: 09 mar 2020</p>
+                                            </div>
+                                            <div class="d-flex flex-row">
+                                                <p>Transaction</p>
+                                                <p>: Freedom Coin<br />-Withdrawal</p>
+                                            </div>
+                                            <div class="d-flex flex-row">
+                                                <p class="pr-3">Amount</p>
+                                                <p class="loss">: $500.00</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="recent_transactions2 shadow">
+                                            <div class="d-flex flex-row">
+                                                <p class="pr-5">Date</p>
+                                                <p>: 09 mar 2020</p>
+                                            </div>
+                                            <div class="d-flex flex-row">
+                                                <p>Transaction</p>
+                                                <p>: Profit Wolfpack(Alpha Name)<br />-Purchase</p>
+                                            </div>
+                                            <div class="d-flex flex-row">
+                                                <p class="pr-3">Amount</p>
+                                                <p class="loss">: $400.00</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="recent_transactions2 shadow">
+                                            <div class="d-flex flex-row">
+                                                <p class="pr-5">Date</p>
+                                                <p>: 09 mar 2020</p>
+                                            </div>
+                                            <div class="d-flex flex-row">
+                                                <p>Transaction</p>
+                                                <p>: Non Profit Wolfpack(Alpha N..)<br />-Deposit</p>
+                                            </div>
+                                            <div class="d-flex flex-row">
+                                                <p class="pr-3">Amount</p>
+                                                <p class="loss">: $400.00</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="text-center">
+                                    <a class="anchorElement ">View More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionWallet">
+        <div class="bg-wallet">
+            <div>
+                <div class="p-3">
+                    <div class="d-flex flex-row justify-content-center">
+                        <i class="fas fa-leaf logo"></i>
+                        <h1 class="logo_heading">LOGO</h1>
+                    </div>
+                    <hr class="horizontal_line" />
+                </div>
+                <i class="fas fa-times icon_edit" onclick='display("sectionHome")'></i>
+                <div class="pl-2">
+                    <ul class="unorderList">
+                        <li class="list_container">
+                            <div class="d-flex flex-row">
+                                <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=1920ee8c-8942-4e97-a705-2a6d94306d3e&api_key=CometServer1&access_token=1618850265_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_388ca3ae0eed219400a7aa360f9d5960cf8b4688" class="wallet_img  ml-3" />
+                                <p class="wallet_section_1 m-2">Wallet</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex flex-row">
+                                <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=ba3feea8-8d51-470a-a64d-05d6e572bfb8&api_key=CometServer1&access_token=1618850265_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_388ca3ae0eed219400a7aa360f9d5960cf8b4688" class="wallet_img  ml-3" />
+                                <p class="wallet_section  m-2">Wolfpacks</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex flex-row">
+                                <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=a360d084-4cf7-46ea-ac0d-fef9b0269269&api_key=CometServer1&access_token=1618850265_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_388ca3ae0eed219400a7aa360f9d5960cf8b4688" class="wallet_img  ml-3" />
+                                <p class="wallet_section m-2">Portfolio</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex flex-row">
+                                <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=4d87d9e4-7389-46ff-b122-dd5ffba79488&api_key=CometServer1&access_token=1618850265_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_388ca3ae0eed219400a7aa360f9d5960cf8b4688" class="wallet_img  ml-3" />
+                                <p class="wallet_section m-2">Trancparancy</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex flex-row">
+                                <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=e4a59ce2-bde2-496d-9456-4357a1c45c60&api_key=CometServer1&access_token=1618850265_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_388ca3ae0eed219400a7aa360f9d5960cf8b4688" class="wallet_img  ml-3" />
+                                <p class="wallet_section m-2">All Properties</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionProfile">
+        <div class="bg-profile p-3">
+            <div class="text-right mb-5">
+                <i class="fas fa-times icon_edit2" onclick='display("sectionHome")'></i>
+            </div>
+            <p>Profile</p>
+            <hr />
+            <p>Update Account</p>
+            <hr />
+            <p>Logout</p>
+
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
 
